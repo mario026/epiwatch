@@ -14,13 +14,13 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue, computed } from "vue-class-component";
+import { Options, Vue } from "vue-class-component";
 import BloodValue from "@/components/details/blood-value.vue"
 import { Prop } from "vue-property-decorator";
 @Options({ name: "user-details", components:{BloodValue}})
 export default class UserDetails extends Vue {
-    const MiRNAValue = "0.10"
-    const day = "Gisteren: 10:21:07"
-    const time = "40 seconden"
+     MiRNAValue = "0.10"
+     day = "Gisteren: 10:21:07"
+     time = "40 seconden"
 }
 </script>

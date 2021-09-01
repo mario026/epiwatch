@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue, computed } from "vue-class-component";
+import { Options, Vue } from "vue-class-component";
 import { Prop } from "vue-property-decorator";
 @Options({ name: "blood-value" })
 export default class BloodValue extends Vue {
@@ -21,6 +21,6 @@ export default class BloodValue extends Vue {
         default: "No message set",
     }) readonly image: any
 
-    const value = 99
+     value = 99
 }
 </script>
